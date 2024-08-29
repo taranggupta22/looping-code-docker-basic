@@ -23,11 +23,11 @@ Before you can build and run the Docker container, you need to have Docker insta
    docker --version
  ### commands to be run in terminal
 **Building the Docker Image**
-1.Build the Docker image using the provided Dockerfile:
- docker build -t my-python-loop .
+  - Build the Docker image using the provided Dockerfile:
+       - docker build -t my-python-loop .
 **Running the Docker Container**
-2.Run a Docker container from the built image. This will execute main.py inside the container:
- docker run --rm my-python-loop
+   - Run a Docker container from the built image. This will execute main.py inside the container:
+     - docker run --rm my-python-loop
  ### Example Output
 **The script will continuously output:**
   True
